@@ -40,7 +40,7 @@ module.exports = {
     NOLOG: process.env.NOLOG || false,
     DISABLED_COMMANDS: (process.env.DISABLED_COMMANDS ? process.env.DISABLED_COMMANDS.split(",") : undefined) || [],
     ANTI_BOT: process.env.ANTI_BOT || '',
-    ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '6/10', // msgs/sec
+    ANTISPAM_COUNT: process.env.ANTISPAM_COUNT || '2/4', // msgs/sec
     AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group auto unmuted!_\n_(edit AUTOUNMUTE_MSG)_',
     AUTO_READ_STATUS: convertToBool(process.env.AUTO_READ_STATUS) || false,
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
